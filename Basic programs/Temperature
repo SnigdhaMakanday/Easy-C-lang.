@@ -1,0 +1,9 @@
+#include<stdio.h>
+void main(){
+    int c ,f;
+    printf("Enter the value of Farhenheit");
+    scanf("%d", &f);
+    c = (5/9)*( f-32);
+    printf("Temperature in Celsius %d degree Celsius",c);
+    
+}
