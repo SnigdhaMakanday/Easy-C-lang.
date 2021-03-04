@@ -1,0 +1,12 @@
+#include<stdio.h>
+void main(){
+    int r,h;
+    float a,v;
+    printf("Enter the values of radius and height\n");
+    scanf("%d %d", &r, &h);
+    a = 3.14*r*r;
+    v = a*h;
+    printf("Area of circle is %f \n", a);
+    printf("Volume of cylinder is %f \n ", v);
+    
+}
